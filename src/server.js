@@ -1,6 +1,6 @@
 const express = require("express");
-require("dotenv").config();
-const morgan = require('morgan');
+// require("dotenv").config();
+// const morgan = require('morgan');
 const cors = require('cors')
 const { connect } = require("./db")
 // const applicationRoutes = require('./routes')
