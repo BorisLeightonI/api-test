@@ -16,6 +16,10 @@ app.use(cors())
 
 // applicationRoutes(app)
 
+app.get('/', (req, res)=>{
+  res.status(200).json({message: 'ok updated', data: 'updated'})
+})
+
 app.listen(port, () => {
   console.log(`✅ Server listening on port ${port}!`)
 })
